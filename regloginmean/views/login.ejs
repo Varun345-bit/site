@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            nav{
+                background-color: tomato;
+                height: 35px;
+            }
+            a{
+                color: #00ffff;
+                padding: 10px;
+                text-decoration: none;
+            }
+            input{
+                width: 350px;
+                height: 30px;
+                border-color: blue;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/register">Signup</a>
+            <a href="/login">Login</a>
+           
+        </nav>
+       
+        <form action="/login" method="post">
+            <h1>Login page</h1>
+            <input type="text" name="email" 
+            placeholder="email" required>
+            <br><br>
+            <input type="password" name="password"
+            placeholder="password" required>
+            <br><br>
+            <button>Login</button>
+
+        </form>
+    </body>
+</html>
